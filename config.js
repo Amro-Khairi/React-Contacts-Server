@@ -1,3 +1,4 @@
 exports.port = process.env.PORT || 5001;
-exports.origin = process.env.ORIGIN || `http://localhost:${exports.port}`;
-console.log(process.env.ORIGIN);
+exports.origin =
+  "https://whispering-forest-83978.herokuapp.com" ||
+  `http://localhost:${exports.port}`;
