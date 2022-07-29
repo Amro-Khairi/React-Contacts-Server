@@ -16,16 +16,12 @@ const defaultData = {
       name: "Karen Isgrigg",
       handle: "@karen_isgrigg",
       avatarURL: config.origin + "/karen.jpg",
-      origin: process.env.ORIGIN,
-      port: process.env.PORT,
     },
     {
       id: "tyler",
       name: "Tyler McGinnis",
       handle: "@tylermcginnis",
       avatarURL: config.origin + "/tyler.jpg",
-      origin: process.env.ORIGIN,
-      port: process.env.PORT,
     },
   ],
 };
