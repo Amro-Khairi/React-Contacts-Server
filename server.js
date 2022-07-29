@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
     POST /contacts { name, handle, avatarURL }
   </pre>
   `;
-
   res.send(help);
 });
 
